@@ -1,0 +1,138 @@
+.bar-chart{
+    margin: 25px;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+/* bar-chart */
+
+  .chart-container {
+    position: relative;
+    margin: auto;
+  }
+
+/* pie-chart */
+
+
+
+
+#chart-wrapper {
+    font-family: Helvetica, 'sans-serif';
+    display: flex;
+    justify-content: center;
+    color: #444;
+   }
+
+#chart-wrapper .chart-example-block {
+    flex-direction: column;
+    text-align: center;
+}
+
+#chart-wrapper .chart-error {
+    color: #843130
+}
+
+
+
+#chart-wrapper path {
+    transform-origin: 50% 50%; /* circle center */
+    animation-duration: 500ms;
+}
+#chart-wrapper path:hover {
+    transform: scale(1.1) translate(2px, 2px);
+    transition-duration: 0.5s;
+}
+
+
+  
+  .circle {
+    background: #ffb2c8;
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 auto;
+    position: relative;
+    width: 200px;
+  }
+  .circle__inner {
+    background: #f8cedc;
+    border-radius: 50%;
+    height: 50%;
+    left: 25%;
+    position: absolute;
+    top: 25%;
+    width: 50%;
+  }
+  .circle span {
+    color: #d23597;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    font-size: 36px;
+    font-weight: 800;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    transform: translate(-50%,-50%);
+  }
+  
+  .pie {
+    display: none;
+    height: 200px;
+    left: 50%;
+    overflow: hidden;
+    position: absolute;      
+    -moz-transform-origin: left center;
+    -ms-transform-origin: left center;
+    -o-transform-origin: left center;
+    -webkit-transform-origin: left center;
+    transform-origin: left center;
+    -moz-transform:rotate(0);
+    -ms-transform:rotate(0);
+    -o-transform:rotate(0);
+    -webkit-transform:rotate(0);
+    transform:rotate(0);
+    width: 100px;
+  }
+  .pie.big {       
+    height:200px;
+    left:0;
+    -moz-transform-origin: center center;
+    -ms-transform-origin: center center;
+    -o-transform-origin: center center;
+    -webkit-transform-origin: center center;
+    transform-origin: center center;
+    width:200px;
+  }
+  .pie:before {
+    border-radius: 100px 0 0 100px;
+    content: "";
+    height: 200px;
+    left: -100px;
+    position: absolute;  
+    -moz-transform-origin: right center;
+    -ms-transform-origin: right center;
+    -o-transform-origin: right center;
+    -webkit-transform-origin: right center;
+    transform-origin: right center;
+    width: 100px;
+  }
+  .pie.big:before {
+    left: 0px;
+  }
+  .pie.big:after {
+    border-radius: 0 100px 100px 0;
+    content: "";
+    height: 200px;
+    left: 100px;
+    position: absolute;
+    width: 100px;
+  }
+  .pie.small:before,
+  .pie.small:after,
+  .pie.big:after,
+  .pie.big:before {
+    background-color: #e78c9e;  
+  }

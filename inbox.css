@@ -1,0 +1,1052 @@
+@media  (max-width:430px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .inbox_main {
+        background-color: rgb(245, 246, 250);
+        height: auto;
+        width: 100%;
+    }
+
+    .inbox {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inbox_logo {
+        height: auto;
+        display: flex;
+    }
+
+    .inbox_logo h1 b {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-bottom: 0;
+    }
+
+    .inbox-compose {
+        height: auto;
+        margin: 10px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .compose {
+        height: auto;
+        padding:10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .compose-button {
+        padding: 5px 30px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .compose-details {
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+        padding: 10px 0;
+    }
+
+    .email-section {
+        padding: 20px 0px;
+        padding-bottom: 0%;
+    }
+
+    .email-section h5 {
+        font-size: 20px;
+    }
+
+    .label-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-list {
+        list-style: none;
+        margin-bottom: 0;
+        padding-left: 22px;
+    }
+    .label-section h3 {
+        font-size: 20px;
+    }
+
+    .label-list li {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .label-list li a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(32, 34, 36);
+        padding-left: 8px;
+        font-weight: bold;
+    }
+
+    .table-responsive {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .table {
+        border-radius: 15px;
+    }
+
+    .table tbody tr td {
+        padding: 0px auto   ;
+        font-size: 15px;
+    }
+
+    .email-section .table-responsive tr td {
+       padding: 0;
+       margin: 0;
+        border: none;
+        font-size: 15px;
+    }
+
+    .email-section .table-responsive tr td:first-child {
+        padding-left: 20px;
+    }
+
+    .text-content {
+        color: rgb(99, 101, 102);
+    }
+
+    .completed-color {
+        background-color: rgb(204, 240, 235);
+        color: rgb(0, 182, 155);
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .Work-color {
+        background-color: rgb(255, 235, 221);
+        color: rgb(253, 154, 86);
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .Social-color {
+        background-color: rgb(222, 232, 255);
+        color: rgb(90, 140, 255);
+        padding: 5px 18px;
+        font-size: 12px;
+    }
+
+    .Friends-color {
+        background-color: rgb(246, 221, 255);
+        color: rgb(221, 86, 253);
+        font-size: 12px;
+    }
+
+    .Starred-color {
+        color: rgb(255, 213, 109);
+        font-weight: bold;
+    }
+
+    .search_mail {
+        height: auto;
+        padding: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .search_mail input {
+        height: 45px;
+        width: 260px;
+        border: 1px solid rgba(168, 167, 167, 0.832);
+        border-radius: 50px;
+        background-color: rgb(245, 246, 250);
+        margin-right:0px;
+    }
+
+    .search_mail input::placeholder {
+        padding: 40px;
+        font-size: 19px;
+        color: rgb(117, 118, 122);
+    }
+
+    #search_mail_icon {
+        color: rgb(117, 118, 122);
+        position: absolute;
+        top: 635px;
+        left: 45px;
+        font-size: 20px;
+    }
+
+    .search_mail_iconcontent {
+        background-color: rgb(245, 246, 250);
+        margin: 10px 0;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 213, 213);
+
+    }
+
+    .search_mail_iconcontent i {
+        padding: 15px 30px;
+        font-size: 14px;
+        border: 1px solid rgb(213, 213, 213);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .search_mail_iconcontent :first-child,
+    .search_mail_iconcontent :last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+@media (min-width:431px) and (max-width:1000px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .inbox_main {
+        background-color: rgb(245, 246, 250);
+        height: auto;
+        width: 80%;
+    }
+
+    .inbox {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inbox_logo {
+        height: auto;
+        display: flex;
+    }
+
+    .inbox_logo h1 b {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-bottom: 0;
+    }
+
+    .inbox-compose {
+        height: auto;
+        margin: 10px 25px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .compose {
+        height: auto;
+        width: 50%;
+        padding:10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+        margin-bottom: 20px;
+    }
+
+    .compose-button {
+        padding: 5px 30px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .compose-details {
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+        padding: 10px 0;
+    }
+
+    .email-section {
+        padding: 20px 0px;
+        padding-bottom: 0%;
+    }
+
+    .email-section h5 {
+        font-size: 20px;
+    }
+
+    .label-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-list {
+        list-style: none;
+        margin-bottom: 0;
+        padding-left: 22px;
+    }
+    .label-section h3 {
+        font-size: 20px;
+    }
+
+    .label-list li {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .label-list li a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(32, 34, 36);
+        padding-left: 8px;
+        font-weight: bold;
+    }
+
+    .table-responsive {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+    }
+
+    .table {
+        border-radius: 15px;
+    }
+
+    .table tbody tr td {
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .email-section .table-responsive tr td {
+       padding: 0;
+       margin: 0;
+        border: none;
+        font-size: 15px;
+    }
+
+    .email-section .table-responsive tr td:first-child {
+        padding-left: 20px;
+    }
+
+    .text-content {
+        color: rgb(99, 101, 102);
+    }
+
+    .completed-color {
+        background-color: rgb(204, 240, 235);
+        color: rgb(0, 182, 155);
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .Work-color {
+        background-color: rgb(255, 235, 221);
+        color: rgb(253, 154, 86);
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .Social-color {
+        background-color: rgb(222, 232, 255);
+        color: rgb(90, 140, 255);
+        padding: 5px 18px;
+        font-size: 12px;
+    }
+
+    .Friends-color {
+        background-color: rgb(246, 221, 255);
+        color: rgb(221, 86, 253);
+        font-size: 12px;
+    }
+
+    .Starred-color {
+        color: rgb(255, 213, 109);
+        font-weight: bold;
+    }
+
+    .search_mail {
+        height: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search_mail input {
+        height: 45px;
+        width: 250px;
+        border: 1px solid rgba(168, 167, 167, 0.832);
+        border-radius: 50px;
+        background-color: rgb(245, 246, 250);
+    }
+
+    .search_mail input::placeholder {
+        padding: 40px;
+        font-size: 19px;
+        color: rgb(117, 118, 122);
+    }
+
+    #search_mail_icon {
+        color: rgb(117, 118, 122);
+        position: absolute;
+        top: 702px;
+        left: 200px;
+        font-size: 20px;
+    }
+
+    .search_mail_iconcontent {
+        background-color: rgb(245, 246, 250);
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 213, 213);
+
+    }
+
+    .search_mail_iconcontent i {
+        padding: 12px 12px;
+        font-size: 14px;
+        border: 1px solid rgb(213, 213, 213);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .search_mail_iconcontent :first-child,
+    .search_mail_iconcontent :last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+@media (min-width:1000px) and (max-width:1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .inbox_main {
+        background-color: rgb(245, 246, 250);
+        height: auto;
+        width: 80%;
+    }
+
+    .inbox {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inbox_logo {
+        height: auto;
+        display: flex;
+    }
+
+    .inbox_logo h1 b {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-bottom: 0;
+    }
+
+    .inbox-compose {
+        height: auto;
+        margin: 10px 25px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .compose {
+        height: auto;
+        padding:10px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    .compose-button {
+        padding: 5px 30px;
+        font-weight: bold;
+        font-size: 1.2rem;
+    }
+
+    .compose-details {
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+        padding: 10px 0;
+    }
+
+    .email-section {
+        padding: 20px 0px;
+        padding-bottom: 0%;
+    }
+
+    .email-section h5 {
+        font-size: 20px;
+    }
+
+    .label-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-list {
+        list-style: none;
+        margin-bottom: 0;
+        padding-left: 22px;
+    }
+    .label-section h3 {
+        font-size: 20px;
+    }
+
+    .label-list li {
+        font-size: 18px;
+        padding-bottom: 5px;
+    }
+
+    .label-list li a {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(32, 34, 36);
+        padding-left: 8px;
+        font-weight: bold;
+    }
+
+    .table-responsive {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .table {
+        border-radius: 15px;
+    }
+
+    .table tbody tr td {
+        padding: 10px 5px;
+        font-size: 10px;
+    }
+
+    .email-section .table-responsive tr td {
+        padding: 5px 0;
+        border: none;
+        font-size: 15px;
+    }
+
+    .email-section .table-responsive tr td:first-child {
+        padding-left: 20px;
+    }
+
+    .text-content {
+        color: rgb(99, 101, 102);
+    }
+
+    .completed-color {
+        background-color: rgb(204, 240, 235);
+        color: rgb(0, 182, 155);
+        padding: 5px 10px;
+        font-size: 12px;
+    }
+
+    .Work-color {
+        background-color: rgb(255, 235, 221);
+        color: rgb(253, 154, 86);
+        padding: 5px 20px;
+        font-size: 12px;
+    }
+
+    .Social-color {
+        background-color: rgb(222, 232, 255);
+        color: rgb(90, 140, 255);
+        padding: 5px 18px;
+        font-size: 12px;
+    }
+
+    .Friends-color {
+        background-color: rgb(246, 221, 255);
+        color: rgb(221, 86, 253);
+        font-size: 12px;
+    }
+
+    .Starred-color {
+        color: rgb(255, 213, 109);
+        font-weight: bold;
+    }
+
+    .search_mail {
+        height: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search_mail input {
+        height: 45px;
+        width: 250px;
+        border: 1px solid rgba(168, 167, 167, 0.832);
+        border-radius: 50px;
+        background-color: rgb(245, 246, 250);
+    }
+
+    .search_mail input::placeholder {
+        padding: 40px;
+        font-size: 19px;
+        color: rgb(117, 118, 122);
+    }
+
+    #search_mail_icon {
+        color: rgb(117, 118, 122);
+        position: absolute;
+        top: 195px;
+        left: 465px;
+    }
+
+    .search_mail_iconcontent {
+        background-color: rgb(245, 246, 250);
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 213, 213);
+
+    }
+
+    .search_mail_iconcontent i {
+        padding: 12px 12px;
+        font-size: 14px;
+        border: 1px solid rgb(213, 213, 213);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .search_mail_iconcontent :first-child,
+    .search_mail_iconcontent :last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media (min-width:1200px) and (max-width:1600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .inbox_main {
+        background-color: rgb(245, 246, 250);
+        height: auto;
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .content-main-small{
+        width: 92%;
+    }
+    .content-main-large{
+        width: 80%;
+    }
+
+    .inbox {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inbox_logo {
+        height: auto;
+        display: flex;
+    }
+
+    .inbox_logo h1 b {
+        font-size: 25px;
+        padding-left: 25px;
+        padding-bottom: 0;
+    }
+
+    .inbox-compose {
+        height: auto;
+        margin: 10px 25px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .compose {
+        height: auto;
+        padding: 20px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    .compose-button {
+        padding: 5px 50px;
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
+
+    .compose-details {
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+        padding: 10px 0;
+    }
+
+    .email-section {
+        padding: 20px 0px;
+        padding-bottom: 0%;
+    }
+
+    .label-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-list {
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    .label-list li {
+        font-size: 20px;
+        padding-left: 5px;
+        padding-bottom: 5px;
+
+    }
+
+    .label-list li a {
+        font-size: 17px;
+        text-decoration: none;
+        color: rgb(32, 34, 36);
+        padding-left: 8px;
+    }
+
+    .table-responsive {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .table {
+        border-radius: 15px;
+    }
+
+    .table tbody tr td {
+        padding: 18px 10px;
+    }
+
+    .email-section .table-responsive tr td {
+        padding: 5px 0;
+        border: none;
+    }
+
+    .email-section .table-responsive tr td:first-child {
+        padding-left: 40px;
+    }
+
+    .text-content {
+        color: rgb(99, 101, 102);
+    }
+
+    .completed-color {
+        background-color: rgb(204, 240, 235);
+        color: rgb(0, 182, 155);
+        padding: 5px 10px;
+    }
+
+    .Work-color {
+        background-color: rgb(255, 235, 221);
+        color: rgb(253, 154, 86);
+        padding: 5px 20px;
+    }
+
+    .Social-color {
+        background-color: rgb(222, 232, 255);
+        color: rgb(90, 140, 255);
+        padding: 5px 18px;
+    }
+
+    .Friends-color {
+        background-color: rgb(246, 221, 255);
+        color: rgb(221, 86, 253);
+    }
+
+    .Starred-color {
+        color: rgb(255, 213, 109);
+        font-weight: bold;
+    }
+
+    .search_mail {
+        height: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search_mail input {
+        height: 50px;
+        width: 350px;
+        border: 1px solid rgba(168, 167, 167, 0.832);
+        border-radius: 50px;
+        background-color: rgb(245, 246, 250);
+    }
+
+    .search_mail input::placeholder {
+        padding: 40px;
+        font-size: 19px;
+        color: rgb(117, 118, 122);
+    }
+
+    #search_mail_icon {
+        color: rgb(117, 118, 122);
+        position: absolute;
+        top: 200px;
+        left: 660px;
+    }
+
+    .search_mail_iconcontent {
+        background-color: rgb(245, 246, 250);
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 213, 213);
+
+    }
+
+    .search_mail_iconcontent i {
+        padding: 15px 15px;
+        font-size: 18px;
+        border: 1px solid rgb(213, 213, 213);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .search_mail_iconcontent :first-child,
+    .search_mail_iconcontent :last-child {
+        border-left: none;
+        border-right: none;
+    }
+}
+
+@media(min-width:1600px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .inbox_main {
+        background-color: rgb(245, 246, 250);
+        height: auto;
+        width: 80%;
+        padding: 20px;
+    }
+
+    .inbox {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inbox_logo {
+        height: auto;
+        display: flex;
+        margin: 15px 0;
+    }
+
+    .inbox_logo h1 b {
+        font-size: 45px;
+        padding-left: 25px;
+        padding-bottom: 0;
+    }
+
+    .inbox-compose {
+        height: auto;
+        margin: 10px 25px;
+        display: flex;
+        gap: 30px;
+    }
+
+    .compose {
+        height: auto;
+        padding: 30px;
+        background-color: rgb(255, 255, 255);
+        border-radius: 10px;
+    }
+
+    .compose-button {
+        padding: 15px 80px;
+        font-weight: bold;
+        font-size: 3rem;
+    }
+
+    .compose-details {
+        height: auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(185, 185, 185);
+        padding: 10px 0;
+        margin-left: 10px;
+    }
+
+    .email-section {
+        padding: 30px 0px;
+        padding-bottom: 0%;
+    }
+
+    .email-section h5 {
+        font-size: 40px;
+    }
+
+    .label-section {
+        margin: 0;
+        padding: 0;
+    }
+
+    .label-list {
+        list-style: none;
+        margin-bottom: 0;
+    }
+
+    .label-section h3 {
+        font-size: 45px;
+    }
+
+    .label-list li {
+        font-size: 45px;
+        padding-left: 45px;
+        padding-bottom: 5px;
+
+    }
+
+    .label-list li a {
+        font-size: 32px;
+        text-decoration: none;
+        color: rgb(32, 34, 36);
+        padding-left: 20px;
+    }
+
+    .table-responsive {
+        margin-top: 0;
+        margin-bottom: 0;
+        border-radius: 15px;
+        overflow: hidden;
+    }
+
+    .table {
+        border-radius: 15px;
+    }
+
+    .table tbody tr td {
+        padding: 50px 20px;
+        font-size: 25px;
+    }
+
+    .email-section .table-responsive tr td {
+        padding: 10px 0;
+        border: none;
+        font-size: 30px;
+    }
+
+    .email-section .table-responsive tr td:first-child {
+        padding-left: 80px;
+    }
+
+    .text-content {
+        color: rgb(99, 101, 102);
+    }
+
+    .completed-color {
+        background-color: rgb(204, 240, 235);
+        color: rgb(0, 182, 155);
+        padding: 10px 31px;
+        font-size: 30px;
+    }
+
+    .Work-color {
+        background-color: rgb(255, 235, 221);
+        color: rgb(253, 154, 86);
+        padding: 10px 50px;
+        font-size: 30px;
+    }
+
+    .Social-color {
+        background-color: rgb(222, 232, 255);
+        color: rgb(90, 140, 255);
+        padding: 5px 18px;
+        padding: 10px 47px;
+        font-size: 30px;
+    }
+
+    .Friends-color {
+        background-color: rgb(246, 221, 255);
+        color: rgb(221, 86, 253);
+        padding: 10px 37px;
+        font-size: 30px;
+    }
+
+    .Starred-color {
+        color: rgb(255, 213, 109);
+        font-weight: bold;
+    }
+
+    .search_mail {
+        height: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search_mail input {
+        height: 80px;
+        width: 550px;
+        border: 1px solid rgba(168, 167, 167, 0.832);
+        border-radius: 50px;
+        background-color: rgb(245, 246, 250);
+    }
+
+    .search_mail input::placeholder {
+        padding: 20px 60px;
+        font-size: 30px;
+        color: rgb(117, 118, 122);
+    }
+
+    #search_mail_icon {
+        color: rgb(117, 118, 122);
+        position: absolute;
+        top: 300px;
+        left: 1110px;
+        font-size: 30px;
+    }
+
+    .search_mail_iconcontent {
+        background-color: rgb(245, 246, 250);
+        display: flex;
+        border-radius: 10px;
+        border: 1px solid rgb(213, 213, 213);
+
+    }
+
+    .search_mail_iconcontent i {
+        padding: 20px 25px;
+        font-size: 35px;
+        border: 1px solid rgb(213, 213, 213);
+        border-top: none;
+        border-bottom: none;
+    }
+
+    .search_mail_iconcontent :first-child,
+    .search_mail_iconcontent :last-child {
+        border-left: none;
+        border-right: none;
+    }
+}

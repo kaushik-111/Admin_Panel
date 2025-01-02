@@ -1,0 +1,948 @@
+@media (max-width:320px) {
+ .Products_main_content{
+        height: auto;
+        width: 100%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #Products_logo{
+        height:auto;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
+    
+    #Products_logo h3 b{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    
+    #Products_slider{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    #slider_content{
+        height: auto;
+        width:88%;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+         border-radius: 20px;
+         padding: 8px;
+    }
+    
+    #slider_content h5{
+     color: white;
+     font-size: 18px;
+     font-weight: 700;
+     padding-left: 20px;
+    }
+    
+    #slider_content h2{
+        color: white;
+        font-size: 18px;
+        font-weight:700;
+        padding-left: 20px;
+    }
+    
+    #slider_content p{
+        font-size: 16px;
+        color: white;
+        font-weight: 750;
+        padding-left:20px;
+    }
+    
+    #slider_content button{
+        display: flex;
+        align-self: flex-start;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 20px;         
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: orange;
+    }
+    
+    
+    #watch{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 17rem; 
+        border: none;   
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 10px;
+
+    }
+    .card-img-top{
+        height: auto;
+        width:12rem;
+        display: flex;
+        align-self: center;
+        margin-left: 40px;
+        margin-top: 10px;
+    }
+    .card-body{
+        /* padding-left: 50px; */
+        padding-top: 10px;
+    }
+
+    .card-title b{
+        font-size: 16px;
+    }
+    .card-title span{
+        padding-left: 55px;
+    }
+    .card-title span i{
+        border-radius: 100%; 
+        background-color: rgba(214, 207, 207, 0.873); 
+        padding: 4px;
+        align-items: center;
+        font-size:12px;
+    }
+
+    .apple_digit{
+        color: #195fd7;  
+        font-size: 25px;      
+    }
+
+    .apple-star{
+        color: rgb(204, 204, 204);
+        /* margin-top: -10px; */
+    }
+
+    #a_s_i{
+        font-size: 25px;
+        color: rgb(255, 149, 0);
+    }
+
+    .btn{
+        background-color: rgb(235, 241, 251); 
+        /* margin-top: -5px;  */
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin: 20px; */
+        margin-left: 0;
+    }
+
+    .btn b{
+        font-size: 20px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%);
+      border-radius: 50%;
+      font-size: 12px;
+      width: 30px; 
+      height: 30px; 
+      display: flex;
+      align-items: center;
+    }
+}
+
+@media (min-width:321px) and (max-width:440px) {
+    .Products_main_content{
+        height: auto;
+        width: 100%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #Products_logo{
+        height:auto;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
+    
+    #Products_logo h3 b{
+        font-size: 20px;
+        padding-left: 15px;
+    }
+    
+    #Products_slider{
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8px;
+        margin-bottom: 10px;
+    }
+    
+    #slider_content{
+        height: auto;
+        width:88%;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+         border-radius: 20px;
+         padding: 8px;
+    }
+    
+    #slider_content h5{
+     color: white;
+     font-size: 18px;
+     font-weight: 700;
+     padding-left: 35px;
+    }
+    
+    #slider_content h2{
+        color: white;
+        font-size: 20px;
+        font-weight:700;
+        padding-left: 35px;
+    }
+    
+    #slider_content p{
+        font-size: 16px;
+        color: white;
+        font-weight: 750;
+        padding-left: 35px;
+    }
+    
+    #slider_content button{
+        display: flex;
+        align-self: flex-start;
+        color: white;
+        font-weight: 700;
+        font-size: 16px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 35px;         
+        padding: 8px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: orange;
+        margin-top: 10px;
+    }
+    
+    
+    #watch{
+        height: auto;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 20rem; 
+        border: none;   
+        overflow: hidden;
+        border-radius: 15px;
+        margin: 20px;
+
+    }
+    .card-img-top{
+        height: auto;
+        width:15rem;
+        display: flex;
+        align-self: center;
+        margin-left: 40px;
+    }
+    .card-body{
+        /* padding-left: 50px; */
+        padding-top: 10px;
+    }
+
+    .card-title b{
+        font-size: 20px;
+    }
+    .card-title span{
+        padding-left: 50px;
+    }
+    .card-title span i{
+        border-radius: 100%; 
+        background-color: rgba(214, 207, 207, 0.873); 
+        padding: 8px;
+        align-items: center;
+        font-size:18px;
+    }
+
+    .apple_digit{
+        color: #195fd7;  
+        font-size: 25px;      
+    }
+
+    .apple-star{
+        color: rgb(204, 204, 204);
+        /* margin-top: -10px; */
+    }
+
+    #a_s_i{
+        font-size: 25px;
+        color: rgb(255, 149, 0);
+    }
+
+    .btn{
+        background-color: rgb(235, 241, 251); 
+        /* margin-top: -5px;  */
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+        /* margin: 20px; */
+        margin-left: 0;
+    }
+
+    .btn b{
+        font-size: 20px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%);
+      border-radius: 50%;
+      font-size: 12px;
+      width: 30px; 
+      height: 30px; 
+      display: flex;
+      align-items: center;
+    }
+
+}
+
+@media (min-width:431px) and (max-width:1000px) {
+.Products_main_content{
+    height: auto;
+    width: 80%;
+    background-color: rgb(245,246,249);
+    display: flex;
+    flex-direction: column;
+}
+
+#Products_logo{
+    height:auto;
+    width: 100%;
+    display: flex;
+    padding: 10px;
+}
+
+#Products_logo h3 b{
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+#Products_slider{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8px;
+    margin-bottom: 10px;
+}
+
+#slider_content{
+    height: auto;
+    width: 94%;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+     border-radius: 20px;
+     padding: 18px;
+}
+
+#slider_content h5{
+ color: white;
+ font-size: 18px;
+ font-weight: 700;
+ padding-left: 55px;
+}
+
+#slider_content h2{
+    color: white;
+    font-size: 20px;
+    font-weight:700;
+    padding-left: 55px;
+}
+
+#slider_content p{
+    font-size: 16px;
+    color: white;
+    font-weight: 750;
+    padding-left: 55px;
+}
+
+#slider_content button{
+    display: flex;
+    align-self: flex-start;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 55px;         
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+
+#watch{
+    height: auto;
+    width: 100%;
+    margin-top:20px ;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.card{
+    width: 11rem; 
+    border: none;   
+    overflow: hidden;
+    border-radius: 15px;
+    padding-top: 15px;
+    margin-top: 5px;
+}
+.card-img-top{
+    height:auto;
+    width:9rem;
+    display: flex;
+    align-self: center;
+    margin-left: 8px;
+}
+
+.card-body{
+    padding: 12px;
+}
+
+.card-title b{
+    font-size: 12.5px;
+    font-weight: 700;
+}
+.card-title span{
+    padding-left: 6.7px;
+}
+.card-title span i{
+    border-radius: 100%; 
+    background-color: rgba(214, 207, 207, 0.873); 
+    padding: 3px;
+    align-items: center;
+    font-size:10px;
+    padding-top: 5px;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+.apple_digit{
+    color: #195fd7;  
+    font-size: 15px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+.apple-star{
+    color: rgb(204, 204, 204);
+    padding-top: 10px;
+}
+
+#a_s_i{
+    font-size: 14px;
+    color: rgb(255, 149, 0);
+}
+
+.btn{
+    background-color: rgb(235, 241, 251); 
+    border-radius: 10px;
+    padding: 4px 12px 7px 12px;
+    margin-top: 10px;
+}
+
+.btn b{
+    font-size: 13px;
+}
+
+}
+
+@media (min-width:1000px) and (max-width:1200px) {
+
+        .Products_main_content{
+            height: auto;
+            width: 80%;
+            background-color: rgb(245,246,249);
+            display: flex;
+            flex-direction: column;
+        }
+    
+        #Products_logo{
+            height:auto;
+            width: 100%;
+            display: flex;
+            padding: 10px;
+        }
+    
+        #Products_logo h3 b{
+            font-size: 30px;
+            padding-left: 25px;
+        }
+    
+        #Products_slider{
+            height: auto;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        #slider_content{
+            height: auto;
+            width: 94%;
+            background-color: blue;
+            display: flex;
+            flex-direction: column;
+             border-radius: 20px;
+             padding: 20px;
+        }
+    
+        #slider_content h5{
+         color: white;
+         font-size: 25px;
+         font-weight: 700;
+         padding-left: 80px;
+        }
+    
+        #slider_content h2{
+            color: white;
+            font-size: 30px;
+            font-weight: 700;
+            padding-left: 80px;
+        }
+    
+        #slider_content p{
+            font-size: 25px;
+            color: white;
+            font-weight: 700;
+            padding-left: 80px;
+        }
+    
+        #slider_content button{
+            display: flex;
+            align-self: flex-start;
+            color: white;
+            font-weight: 700;
+            font-size: 20px;
+            border-radius: 10px;
+            border: none;
+            margin-left: 80px;         
+            padding: 10px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: orange;
+        }
+    
+    
+        #watch{
+            height: auto;
+            width: 100%;
+            margin-top:20px ;
+            margin-bottom: 20px;
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .card{
+            width:15rem; 
+            border: none;   
+            overflow: hidden;
+            border-radius: 15px;
+            padding-top: 15px;
+        }
+        .card-img-top{
+            height:auto;
+            width:12rem;
+            display: flex;
+            align-self: center;
+            margin-left: 22px;
+        }
+
+        .card-body{
+            padding: 20px;
+            padding-bottom: 15px;
+        }
+    
+        .card-title b{
+            font-size: 16px;
+            font-weight: 700;
+        }
+        .card-title span{
+            padding-left: 8px;
+        }
+        .card-title span i{
+            border-radius: 100%; 
+            background-color: rgba(214, 207, 207, 0.873); 
+            padding: 7px;
+            align-items: center;
+            font-size:15px;
+        }
+    
+        .apple_digit{
+            color: #195fd7;  
+            font-size: 25px;      
+        }
+    
+        .apple-star{
+            color: rgb(204, 204, 204);
+            margin-top: -10px;
+        }
+    
+        #a_s_i{
+            font-size: 20px;
+            color: rgb(255, 149, 0);
+        }
+    
+        .btn{
+            background-color: rgb(235, 241, 251); 
+            border-radius: 10px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+    
+        .btn b{
+            font-size: 15px;
+        }
+   
+}
+
+@media (min-width:1200px) and (max-width:1600px) {
+    
+    .Products_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .content-main-small{
+        width: 92%;
+    }
+    .content-main-large{
+        width: 80%;
+    }
+    
+    #Products_logo{
+        height:auto;
+        width: 100%;
+        display: flex;
+        padding: 10px;
+    }
+
+    #Products_logo h3 b{
+        font-size: 30px;
+        padding-left: 25px;    }
+
+    #Products_slider{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #slider_content{
+        height: auto;
+        width: 94%;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+         border-radius: 20px;   
+         padding: 20px;
+    }
+
+    #slider_content h5{
+     color: white;
+     font-size: 25px;
+     font-weight: 700;
+     padding-left: 80px;
+    }
+
+    #slider_content h2{
+        color: white;
+        font-size: 30px;
+        font-weight: 700;
+        padding-left: 80px;
+    }
+
+    #slider_content p{
+        font-size: 25px;
+        color: white;
+        font-weight: 700;
+        padding-left: 80px;
+    }
+
+    #slider_content button{
+        display: flex;
+        align-self: flex-start;
+        color: white;
+        font-weight: 700;
+        font-size: 20px;
+        border-radius: 10px;
+        border: none;
+        margin-left: 80px;         
+        padding: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        background-color: orange;
+    }
+
+    #watch{
+        height: auto;
+        width: 100%;
+        margin-top:20px ;
+        margin-bottom: 20px;
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .card{
+        width:22rem; 
+        border: none;   
+        overflow: hidden;
+        border-radius: 15px;
+        padding-top: 15px;
+    }
+    .card-img-top{
+        height:auto;
+        width:17rem;
+        display: flex;
+        align-self: center;
+        margin-left: 22px;
+    }
+
+    .card-body{
+        padding: 25px;
+        padding-bottom: 15px;
+    }
+
+    .card-title b{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .card-title span{
+        padding-left:69px;
+    }
+    .card-title span i{
+        border-radius: 100%; 
+        background-color: rgba(214, 207, 207, 0.873); 
+        padding: 7px;
+        align-items: center;
+        font-size:15px;
+    }
+
+    .apple_digit{
+        color: #195fd7;  
+        font-size: 25px;      
+    }
+
+    .apple-star{
+        color: rgb(204, 204, 204);
+        margin-top: -10px;
+    }
+
+    #a_s_i{
+        font-size: 20px;
+        color: rgb(255, 149, 0);
+    }
+
+    .btn{
+        background-color: rgb(235, 241, 251); 
+        border-radius: 10px;
+        padding: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .btn b{
+        font-size: 15px;
+    }
+    
+}
+
+@media (min-width:1600px) {
+
+    .Products_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    #Products_logo{
+        height:auto;
+        width: 100%;
+        display: flex;
+        padding: 40px;
+    }
+
+    #Products_logo h3 b{
+        font-size: 65px;
+        padding-left: 45px;
+    }
+
+    #Products_slider{
+        height: auto;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    #slider_content{
+        height: auto;
+        width: 92%;
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        padding: 40px;
+        border-radius: 20px;
+    }
+
+    #slider_content h5{
+     color: white;
+     font-size: 40px;
+     font-weight: 700;
+     padding-top: 10px;
+     padding-left: 80px;
+    }
+
+    #slider_content h2{
+        color: white;
+        font-size: 50px;
+        font-weight: 700;
+        padding: 20px;
+        padding-left: 80px;
+    }
+
+    #slider_content p{
+        font-size: 40px;
+        color: white;
+        font-weight: 700;
+        padding-left: 80px;
+    }
+
+    #slider_content button{
+        display: flex;
+        align-self: flex-start;
+        color: white;
+        font-weight: 700;
+        font-size: 35px;
+        border-radius: 10px;
+        border: none;
+        margin: 20px;
+        margin-left: 80px;
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        background-color: orange;
+    }
+
+    /* gvtuhgsjehiuwreuwedchv */
+
+    #watch{
+        height: auto;
+        width: 96%;
+        display: flex;
+        margin: 25px;
+        justify-content: space-around;
+    }
+    .card{
+        width: 35rem; 
+        border: none;   
+        overflow: hidden;
+        border-radius: 15px;
+    }
+    .card-img-top{
+        height: auto;
+        width:25rem;
+        display: flex;
+        align-self: center;
+        margin-left: 40px;
+    }
+    .card-body{
+        padding-left: 50px;
+        padding-top: 40px;
+    }
+
+    .card-title b{
+        font-size: 35px;
+    }
+    .card-title span{
+        padding-left: 90px;
+    }
+    .card-title span i{
+        border-radius: 100%; 
+        background-color: rgba(214, 207, 207, 0.873); 
+        padding: 10px;
+        align-items: center;
+        font-size:25px;
+    }
+
+    .apple_digit{
+        color: #195fd7;  
+        font-size: 35px;      
+    }
+
+    .apple-star{
+        color: rgb(204, 204, 204);
+        margin-top: -10px;
+    }
+
+    #a_s_i{
+        font-size: 35px;
+        color: rgb(255, 149, 0);
+    }
+
+    .btn{
+        background-color: rgb(235, 241, 251); 
+        margin-top: -5px; 
+        border-radius: 10px;
+        padding: 20px;
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: 20px;
+        margin-left: 0;
+    }
+
+    .btn b{
+        font-size: 25px;
+    }
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+      filter: invert(100%);
+      border-radius: 50%;
+      font-size: 12px;
+      width: 30px; /* Adjust width to make them circular */
+      height: 30px; /* Adjust height to make them circular */
+      display: flex;
+      align-items: center;
+    }
+
+}

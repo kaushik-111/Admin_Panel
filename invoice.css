@@ -1,0 +1,355 @@
+@media (max-width:430px) {
+    *{
+        font-size: auto;
+    }
+    #invoice_main_content{
+        height: auto;
+        width: 100%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invoice_logo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 15px;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .invoice_logo h3 b{
+        font-size: 25px;
+    }
+
+    .table-details{
+        height: auto;
+        margin: 20px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .text-color{
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+    }
+
+    .invoice_details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .table-responsive{
+        padding: 20px;
+    }
+    
+    .table{
+        border-radius: 15px;
+       }
+
+       .table thead tr th ,.table tbody tr td{
+        padding: 10px;
+       }
+
+    thead tr th , tbody tr td{
+        border: none;
+    }
+
+    .text-font-size{
+        font-size: 12px;
+    }
+
+    .total{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 192px;
+        margin-left: 380px;
+        display: none;
+    }
+
+
+}  
+
+@media (min-width:431px) and (max-width:1000px) {
+
+    #invoice_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invoice_logo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 15px;
+        margin-left: 20px;
+        margin-bottom: 0;
+    }
+
+    .invoice_logo h3 b{
+        font-size: 25px;
+    }
+
+    .table-details{
+        height: auto;
+        margin: 20px;
+        padding: 5px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .text-color{
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+    }
+
+    .invoice_details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .table-responsive{
+        padding: 20px;
+    }
+    
+    .table{
+        border-radius: 15px;
+       }
+
+       .table thead tr th ,.table tbody tr td{
+        padding: 10px;
+       }
+
+    thead tr th , tbody tr td{
+        border: none;
+    }
+
+    .text-font-size{
+        font-size: 12px;
+    }
+
+    .total{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 192px;
+        margin-left: 380px;
+    }
+
+
+
+}  
+
+@media (min-width:1000px) and (max-width:1200px) {
+    #invoice_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invoice_logo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 20px;
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+
+    .invoice_logo h3 b{
+        font-size: 30px;
+    }
+
+    .table-details{
+        height: auto;
+        margin: 25px;
+        padding: 25px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .text-color{
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+    }
+
+    .invoice_details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 10px;
+    }
+
+    .table-responsive{
+        padding: 20px;
+    }
+    
+    .table{
+        border-radius: 15px;
+       }
+
+       .table thead tr th ,.table tbody tr td{
+        padding: 10px;
+       }
+
+    thead tr th , tbody tr td{
+        border: none;
+    }
+
+    .text-font-size{
+        font-size: 14px;
+    }
+
+    .total{
+        font-size: 20px;
+        position: absolute;
+        margin-top: 210px;
+        margin-left: 570px;
+    }
+
+
+} 
+
+@media (min-width:1200px) and (max-width:1600px) {
+    #invoice_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invoice_logo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 20px;
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+
+    .table-details{
+        height: auto;
+        margin: 25px;
+        padding: 20px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .text-color{
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+    }
+
+    .invoice_details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .table-responsive{
+        padding: 20px;
+    }
+    
+    .table{
+        border-radius: 15px;
+       }
+
+    thead tr th , tbody tr td{
+        border: none;
+    }
+
+    .total{
+        padding-left: 900px;
+        padding-top:210px ;
+        position: absolute;
+    }
+    
+}  
+
+@media (min-width:1600px) {
+
+  #invoice_main_content{
+        height: auto;
+        width: 80%;
+        background-color: rgb(245,246,249);
+        display: flex;
+        flex-direction: column;
+    }
+
+    .invoice_logo{
+        height: auto;
+        width: 100%;
+        display: flex;
+        margin: 20px;
+        margin-left: 25px;
+        margin-bottom: 0;
+    }
+
+    .invoice_logo h3 b{
+        font-size: 45px;
+    }
+
+    .table-details{
+        height: auto;
+        margin: 25px;
+        padding: 25px;
+        padding-bottom: 60px;
+        background-color: white;
+        border-radius: 20px;
+    }
+
+    .text-color{
+        color: rgb(64, 64, 64);
+        font-weight: bold;
+    }
+
+    .invoice_details{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        padding: 25px;
+    }
+
+    .table-responsive{
+        padding: 20px;
+    }
+    
+    .table{
+        border-radius: 15px;
+       }
+
+       .table thead tr th ,.table tbody tr td{
+        padding: 25px;
+       }
+
+    thead tr th , tbody tr td{
+        border: none;
+    }
+
+    .text-font-size{
+        font-size: 25px;
+    }
+
+    .total{
+        padding: 40px;
+        padding-left: 1580px;
+        padding-top:440px ;
+        position: absolute;
+        font-size: 30px;
+       
+    }
+
+}  
+ 
